@@ -26,5 +26,5 @@ jobs:
           # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: somebranch
           PUBLISH_DIR: ./public
-        with:
-          emptyCommits: false
+        # with:
+        #   emptyCommits: false
