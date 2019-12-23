@@ -1,21 +1,3 @@
-# portfolio site
+## Elm test repo
 
-SBT 1.0.2 + Scala 2.12.2 + **Play 2.6.7**
-
-## Heroku
-
-- set `APPLICATION_SECRET` in app's settings.
-- Then just deploy it.
-
-## Local dev
-
-- install sbt
-- run `sbt`
-  - `compile`
-  - `stage`
-  - `test`
-  - `run`
-
-## Todo
-
-- DB
+For [peaceiris/actions-gh-pages: GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.](https://github.com/peaceiris/actions-gh-pages)
