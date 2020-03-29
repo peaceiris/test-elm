@@ -11,8 +11,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
       - name: Setup elm
-        run: sudo npm install elm --global
+        run: npm install elm --global
 
       - name: Elm Make
         run: elm make src/Main.elm
