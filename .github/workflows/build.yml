@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Setup elm
-        run: npm install elm --global
+        run: sudo npm install elm --global
 
       - name: Elm Make
         run: elm make src/Main.elm
